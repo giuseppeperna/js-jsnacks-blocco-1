@@ -31,7 +31,7 @@ $(document).ready( function() {
 
   // Stampa a schermo il primo elemento dell'array di oggetti bicycle, con peso minore rispetto agli altri
   for (var i = 0; i < 1; i++) {
-    for (var key in bicycles[i]) {
+    for (var key in bicycles[0]) {
       $('body').append('<h1>' + key + ': ' + bicycles[i][key] + '</h1>');
     }
   }
