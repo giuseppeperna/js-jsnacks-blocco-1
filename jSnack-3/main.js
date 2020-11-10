@@ -16,10 +16,10 @@ $(document).ready( function() {
   console.log(triangle);
 
   // Calcolo ipotenusa
-  var ipotenusa = Math.floor(Math.sqrt(triangle.base ** 2 + triangle.altezza ** 2 ));
+  var ipotenusa = Math.sqrt(triangle.base ** 2 + triangle.altezza ** 2 );
   console.log("ipotenusa:", ipotenusa);
   // Calcolo perimetro
-  var perimetro = Math.floor(triangle.base + triangle.altezza + ipotenusa);
+  var perimetro = triangle.base + triangle.altezza + ipotenusa;
   console.log("perimetro:", perimetro);
   // Calcolo area
   var area = (triangle.base * triangle.altezza) / 2;
