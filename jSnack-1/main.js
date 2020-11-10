@@ -19,7 +19,5 @@ $(document).ready( function() {
 
   // L'utente inserisce il nuovo valore della proprietà peso appartenente all'oggetto ball
   ball.peso = parseInt(prompt('Inserisci il peso della palla'));
-
   console.log(ball);
-
 })
