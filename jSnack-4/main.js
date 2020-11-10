@@ -17,22 +17,22 @@ $(document).ready( function() {
     {
       'nome': "Napoli",
       'punti': 0,
-      'falli subiti': 0
+      'falliSubiti': 0
     },
     {
       'nome': "Genoa",
       'punti': 0,
-      'falli subiti': 0
+      'falliSubiti': 0
     },
     {
       'nome': "Spal",
       'punti': 0,
-      'falli subiti': 0
+      'falliSubiti': 0
     },
     {
       'nome': "Benevento",
       'punti': 0,
-      'falli subiti': 0
+      'falliSubiti': 0
     }
   ];
 
@@ -40,7 +40,7 @@ $(document).ready( function() {
   degli oggetti team*/
   for (var i = 0; i < teams.length; i++){
     teams[i].punti = Math.floor(Math.random() * 30);
-    teams[i]['falli subiti'] = Math.floor(Math.random() * 35);
+    teams[i]['falliSubiti'] = Math.floor(Math.random() * 35);
   }
   console.log(teams);
 })
